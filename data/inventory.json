@@ -1,98 +1,192 @@
 {
-    "skuABC123": {
-      "sku": "ABC123",
-      "productName": "Product A",
-      "category": "Electronics",
-      "stockLevel": 100,
-      "price": 50.25,
-      "supplier": {
-        "name": "Supplier XYZ",
-        "contact": "contact@xyzsuppliers.com",
-        "phone": "+1-800-555-1234"
-      },
-      "lastRestockDate": "2025-03-25",
-      "description": "High-quality electronic gadget with multiple features.",
-      "attributes": {
-        "color": "Black",
-        "weight": "1.2kg",
-        "dimensions": "10 x 5 x 3 cm"
-      }
-    },
-    "skuDEF456": {
-      "sku": "DEF456",
-      "productName": "Product B",
-      "category": "Home Appliances",
-      "stockLevel": 50,
-      "price": 125.75,
-      "supplier": {
-        "name": "Appliance Supplies Inc.",
-        "contact": "info@appliancesupplies.com",
-        "phone": "+1-800-555-6789"
-      },
-      "lastRestockDate": "2025-04-01",
-      "description": "Energy-efficient home appliance.",
-      "attributes": {
-        "color": "White",
-        "weight": "5kg",
-        "dimensions": "30 x 20 x 15 cm"
-      }
-    },
-    "skuGHI789": {
-      "sku": "GHI789",
-      "productName": "Product C",
-      "category": "Toys",
-      "stockLevel": 200,
-      "price": 15.99,
-      "supplier": {
-        "name": "Toy World",
-        "contact": "contact@toyworld.com",
-        "phone": "+1-800-555-9876"
-      },
-      "lastRestockDate": "2025-02-20",
-      "description": "Fun and educational toy for children.",
-      "attributes": {
-        "color": "Red",
-        "weight": "0.5kg",
-        "dimensions": "5 x 5 x 5 cm"
-      }
-    },
-    "skuJKL012": {
-      "sku": "JKL012",
-      "productName": "Product D",
-      "category": "Books",
-      "stockLevel": 350,
-      "price": 10.49,
-      "supplier": {
-        "name": "Books & Co.",
-        "contact": "sales@booksco.com",
-        "phone": "+1-800-555-3456"
-      },
-      "lastRestockDate": "2025-03-10",
-      "description": "Best-selling fiction book.",
-      "attributes": {
-        "author": "John Smith",
-        "pages": 320,
-        "language": "English"
-      }
-    },
-    "skuMNO345": {
-      "sku": "MNO345",
-      "productName": "Product E",
+    "skuVA01": {
+      "sku": "VA01",
+      "productName": "Dulcea Infinity Scarf",
       "category": "Clothing",
-      "stockLevel": 150,
-      "price": 40.99,
+      "stockLevel": 100,
+      "price": 48,
       "supplier": {
         "name": "Fashion Trends",
         "contact": "support@fashiontrends.com",
         "phone": "+1-800-555-2345"
       },
-      "lastRestockDate": "2025-03-18",
-      "description": "Stylish and comfortable clothing for all seasons.",
+      "lastRestockDate": "2025-03-25",
+      "description": "A cozy and stylish infinity scarf perfect for any season.",
       "attributes": {
-        "size": "M",
-        "color": "Blue",
-        "material": "Cotton"
+        "color": "Various",
+        "material": "Wool",
+        "dimensions": "One Size"
+      }
+    },
+    "skuVA02": {
+      "sku": "VA02",
+      "productName": "Carola Infinity Scarf",
+      "category": "Clothing",
+      "stockLevel": 100,
+      "price": 48,
+      "supplier": {
+        "name": "Fashion Trends",
+        "contact": "support@fashiontrends.com",
+        "phone": "+1-800-555-2345"
+      },
+      "lastRestockDate": "2025-03-26",
+      "description": "An elegant infinity scarf to keep you warm and chic.",
+      "attributes": {
+        "color": "Various",
+        "material": "Cashmere Blend",
+        "dimensions": "One Size"
+      }
+    },
+    "skuVA03": {
+      "sku": "VA03",
+      "productName": "Ombre Infinity Scarf",
+      "category": "Clothing",
+      "stockLevel": 100,
+      "price": 48,
+      "supplier": {
+        "name": "Fashion Trends",
+        "contact": "support@fashiontrends.com",
+        "phone": "+1-800-555-2345"
+      },
+      "lastRestockDate": "2025-03-27",
+      "description": "A beautiful ombre scarf for a gradient pop of color.",
+      "attributes": {
+        "color": "Ombre (Blue to Green)",
+        "material": "Acrylic",
+        "dimensions": "One Size"
+      }
+    },
+    "skuVA04": {
+      "sku": "VA04",
+      "productName": "Antonia Infinity Scarf",
+      "category": "Clothing",
+      "stockLevel": 100,
+      "price": 48,
+      "supplier": {
+        "name": "Fashion Trends",
+        "contact": "support@fashiontrends.com",
+        "phone": "+1-800-555-2345"
+      },
+      "lastRestockDate": "2025-03-28",
+      "description": "A sophisticated scarf perfect for layering.",
+      "attributes": {
+        "color": "Various",
+        "material": "Silk Blend",
+        "dimensions": "One Size"
+      }
+    },
+    "skuVA05": {
+      "sku": "VA05",
+      "productName": "Luna Scarf",
+      "category": "Clothing",
+      "stockLevel": 100,
+      "price": 58,
+      "supplier": {
+        "name": "Fashion Trends",
+        "contact": "support@fashiontrends.com",
+        "phone": "+1-800-555-2345"
+      },
+      "lastRestockDate": "2025-03-29",
+      "description": "A luxurious scarf with a soft feel, perfect for colder days.",
+      "attributes": {
+        "color": "Moonlight Gray",
+        "material": "Wool Blend",
+        "dimensions": "One Size"
+      }
+    },
+    "skuVA06": {
+      "sku": "VA06",
+      "productName": "Natalia Scarf",
+      "category": "Clothing",
+      "stockLevel": 100,
+      "price": 58,
+      "supplier": {
+        "name": "Fashion Trends",
+        "contact": "support@fashiontrends.com",
+        "phone": "+1-800-555-2345"
+      },
+      "lastRestockDate": "2025-03-30",
+      "description": "A chic scarf made for style and comfort.",
+      "attributes": {
+        "color": "Ruby Red",
+        "material": "Cotton Blend",
+        "dimensions": "One Size"
+      }
+    },
+    "skuVA07": {
+      "sku": "VA07",
+      "productName": "Laser Cut Stretch Belt",
+      "category": "Accessories",
+      "stockLevel": 100,
+      "price": 48,
+      "supplier": {
+        "name": "Fashion Trends",
+        "contact": "support@fashiontrends.com",
+        "phone": "+1-800-555-2345"
+      },
+      "lastRestockDate": "2025-03-31",
+      "description": "A stylish laser-cut belt with a stretchable design.",
+      "attributes": {
+        "color": "Black",
+        "material": "Stretchable Leather",
+        "size": "Adjustable"
+      }
+    },
+    "skuVA08": {
+      "sku": "VA08",
+      "productName": "Thick Leather Braided Belt",
+      "category": "Accessories",
+      "stockLevel": 100,
+      "price": 48,
+      "supplier": {
+        "name": "Fashion Trends",
+        "contact": "support@fashiontrends.com",
+        "phone": "+1-800-555-2345"
+      },
+      "lastRestockDate": "2025-04-01",
+      "description": "A robust braided leather belt for added style.",
+      "attributes": {
+        "color": "Brown",
+        "material": "Genuine Leather",
+        "size": "Adjustable"
+      }
+    },
+    "skuVA09": {
+      "sku": "VA09",
+      "productName": "Thin Leather Braided Belt",
+      "category": "Accessories",
+      "stockLevel": 100,
+      "price": 38,
+      "supplier": {
+        "name": "Fashion Trends",
+        "contact": "support@fashiontrends.com",
+        "phone": "+1-800-555-2345"
+      },
+      "lastRestockDate": "2025-04-02",
+      "description": "A sleek and minimalistic leather braided belt.",
+      "attributes": {
+        "color": "Black",
+        "material": "Genuine Leather",
+        "size": "Adjustable"
+      }
+    },
+    "skuVA10": {
+      "sku": "VA10",
+      "productName": "Stretch Belt With Leather Clasp",
+      "category": "Accessories",
+      "stockLevel": 100,
+      "price": 48,
+      "supplier": {
+        "name": "Fashion Trends",
+        "contact": "support@fashiontrends.com",
+        "phone": "+1-800-555-2345"
+      },
+      "lastRestockDate": "2025-04-03",
+      "description": "A stylish stretch belt featuring a leather clasp.",
+      "attributes": {
+        "color": "Black",
+        "material": "Stretchable Fabric, Leather",
+        "size": "Adjustable"
       }
     }
 }
-  
