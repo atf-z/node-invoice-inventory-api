@@ -1,72 +1,142 @@
 {
     "customer123": {
-        "customerId": 123,
-        "firstName": "John",
-        "lastName": "Doe",
-        "email": "john.doe@example.com",
-        "phone": "+1-555-123-4567",
-        "address": {
+      "customerId": 123,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1-555-123-4567",
+      "address": {
         "street": "123 Elm St.",
         "city": "Springfield",
         "state": "IL",
         "postalCode": "62701",
         "country": "USA"
+      },
+      "invoices": [
+        {
+          "id": 1001,
+          "total": 150.75,
+          "status": "Paid",
+          "date": "2025-04-01"
+        },
+        {
+          "id": 1002,
+          "total": 85.50,
+          "status": "Pending",
+          "date": "2025-04-15"
         }
+      ]
     },
     "customer124": {
-        "customerId": 124,
-        "firstName": "Jane",
-        "lastName": "Smith",
-        "email": "jane.smith@example.com",
-        "phone": "+1-555-234-5678",
-        "address": {
+      "customerId": 124,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@example.com",
+      "phone": "+1-555-234-5678",
+      "address": {
         "street": "456 Oak St.",
         "city": "Greenwich",
         "state": "CT",
         "postalCode": "06830",
         "country": "USA"
+      },
+      "invoices": [
+        {
+          "id": 1003,
+          "total": 220.00,
+          "status": "Paid",
+          "date": "2025-03-10"
+        },
+        {
+          "id": 1004,
+          "total": 95.25,
+          "status": "Overdue",
+          "date": "2025-04-01"
         }
+      ]
     },
     "customer125": {
-        "customerId": 125,
-        "firstName": "Michael",
-        "lastName": "Johnson",
-        "email": "michael.johnson@example.com",
-        "phone": "+1-555-345-6789",
-        "address": {
+      "customerId": 125,
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "email": "michael.johnson@example.com",
+      "phone": "+1-555-345-6789",
+      "address": {
         "street": "789 Pine St.",
         "city": "Los Angeles",
         "state": "CA",
         "postalCode": "90001",
         "country": "USA"
+      },
+      "invoices": [
+        {
+          "id": 1005,
+          "total": 50.00,
+          "status": "Paid",
+          "date": "2025-02-18"
+        },
+        {
+          "id": 1006,
+          "total": 310.90,
+          "status": "Pending",
+          "date": "2025-03-25"
         }
+      ]
     },
     "customer126": {
-        "customerId": 126,
-        "firstName": "Emily",
-        "lastName": "Williams",
-        "email": "emily.williams@example.com",
-        "phone": "+1-555-456-7890",
-        "address": {
+      "customerId": 126,
+      "firstName": "Emily",
+      "lastName": "Williams",
+      "email": "emily.williams@example.com",
+      "phone": "+1-555-456-7890",
+      "address": {
         "street": "101 Maple St.",
         "city": "Boston",
         "state": "MA",
         "postalCode": "02108",
         "country": "USA"
+      },
+      "invoices": [
+        {
+          "id": 1007,
+          "total": 199.99,
+          "status": "Paid",
+          "date": "2025-01-22"
+        },
+        {
+          "id": 1008,
+          "total": 130.49,
+          "status": "Pending",
+          "date": "2025-04-20"
         }
+      ]
     },
     "customer127": {
-        "customerId": 127,
-        "firstName": "David",
-        "lastName": "Brown",
-        "email": "david.brown@example.com",
-        "phone": "+1-555-567-8901",
-        "address": {
+      "customerId": 127,
+      "firstName": "David",
+      "lastName": "Brown",
+      "email": "david.brown@example.com",
+      "phone": "+1-555-567-8901",
+      "address": {
         "street": "202 Birch St.",
         "city": "Dallas",
         "state": "TX",
         "postalCode": "75201",
         "country": "USA"
+      },
+      "invoices": [
+        {
+          "id": 1009,
+          "total": 90.00,
+          "status": "Paid",
+          "date": "2025-03-05"
+        },
+        {
+          "id": 1010,
+          "total": 47.35,
+          "status": "Overdue",
+          "date": "2025-04-10"
         }
+      ]
     }
-}  
+  }  
