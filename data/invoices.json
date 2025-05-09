@@ -1,0 +1,72 @@
+{
+    "customer123": {
+        "customerId": 123,
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john.doe@example.com",
+        "phone": "+1-555-123-4567",
+        "address": {
+        "street": "123 Elm St.",
+        "city": "Springfield",
+        "state": "IL",
+        "postalCode": "62701",
+        "country": "USA"
+        }
+    },
+    "customer124": {
+        "customerId": 124,
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "email": "jane.smith@example.com",
+        "phone": "+1-555-234-5678",
+        "address": {
+        "street": "456 Oak St.",
+        "city": "Greenwich",
+        "state": "CT",
+        "postalCode": "06830",
+        "country": "USA"
+        }
+    },
+    "customer125": {
+        "customerId": 125,
+        "firstName": "Michael",
+        "lastName": "Johnson",
+        "email": "michael.johnson@example.com",
+        "phone": "+1-555-345-6789",
+        "address": {
+        "street": "789 Pine St.",
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90001",
+        "country": "USA"
+        }
+    },
+    "customer126": {
+        "customerId": 126,
+        "firstName": "Emily",
+        "lastName": "Williams",
+        "email": "emily.williams@example.com",
+        "phone": "+1-555-456-7890",
+        "address": {
+        "street": "101 Maple St.",
+        "city": "Boston",
+        "state": "MA",
+        "postalCode": "02108",
+        "country": "USA"
+        }
+    },
+    "customer127": {
+        "customerId": 127,
+        "firstName": "David",
+        "lastName": "Brown",
+        "email": "david.brown@example.com",
+        "phone": "+1-555-567-8901",
+        "address": {
+        "street": "202 Birch St.",
+        "city": "Dallas",
+        "state": "TX",
+        "postalCode": "75201",
+        "country": "USA"
+        }
+    }
+}  

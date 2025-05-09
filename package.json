@@ -1,0 +1,15 @@
+{
+  "name": "invoice-inventory-api",
+  "version": "1.0.0",
+  "description": "mock invoice and inventory API to be used for API mesh testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "john carlo villaceran",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
